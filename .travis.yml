@@ -12,7 +12,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "app-travisci"
+  app: "docker"
   env: "Docker-env"
   bucket_name: "elasticbeanstalk-us-east-2-814285234391"
   bucket_path: "app-travisci"
